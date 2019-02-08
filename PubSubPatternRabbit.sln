@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSubPatternRabbit", "PubSubPatternRabbit\PubSubPatternRabbit.csproj", "{8F91BED7-E0BE-4C63-B365-74CEC8745D0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSubPatternRabbit.Publisher.Api", "PubSubPatternRabbit\PubSubPatternRabbit.Publisher.Api.csproj", "{8F91BED7-E0BE-4C63-B365-74CEC8745D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber", "Subscriber\Subscriber.csproj", "{C6E07DE1-19F6-426C-846D-95A977E70D41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8F91BED7-E0BE-4C63-B365-74CEC8745D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F91BED7-E0BE-4C63-B365-74CEC8745D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F91BED7-E0BE-4C63-B365-74CEC8745D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E07DE1-19F6-426C-846D-95A977E70D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E07DE1-19F6-426C-846D-95A977E70D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E07DE1-19F6-426C-846D-95A977E70D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E07DE1-19F6-426C-846D-95A977E70D41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
